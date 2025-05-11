@@ -11,7 +11,7 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from noelcpm import CPMnoelcpm
+from stagexcpm import CPMnoelcpm
 
 __CHANNEL_USERNAME__ = "@noel_vendas"
 __GROUP_USERNAME__   = "11978458163"
