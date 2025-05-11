@@ -11,10 +11,10 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from stagexcpm import CPMnoelcpm
+from noelcpm import CPMnoelcpm
 
 __CHANNEL_USERNAME__ = "@noel_vendas"
-__GROUP_USERNAME__   = "11978458163"
+__GROUP_USERNAME__   = "‪+55 81 97306‑1449‬"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
