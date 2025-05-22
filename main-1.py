@@ -1,4 +1,4 @@
-#!/usr/bin/python
+ #!/usr/bin/python
 
 import random
 import requests
@@ -11,10 +11,10 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from noelcpm import CPMnoelcpm
+from Stgaexcpm import CPMstagex
 
 __CHANNEL_USERNAME__ = "@Henriquefxp7"
-__GROUP_USERNAME__   = "81973061449"
+__GROUP_USERNAME__   = "81973061449" "719338-0504"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -189,6 +189,7 @@ if __name__ == "__main__":
             print(Colorate.Horizontal(Colors.rainbow, '{24}: ALTERAR CORRIDAS GANHAS      1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{25}: ALTERAR CORRIDAS PERDIDAS    1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{26}: CLONAR CONTA                 5.000K'))
+            print(Colorate.Horizontal(Colors.rainbow, '{27}: 414 DE HP                    1,500K'))
             print(Colorate.Horizontal(Colors.rainbow, '{0} : SAIR'))
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
@@ -207,7 +208,7 @@ if __name__ == "__main__":
                     if cpm.set_player_money(amount):
                         print(Colorate.Horizontal(Colors.rainbow, 'SUCESSO'))
                         print(Colorate.Horizontal(Colors.rainbow, '======================================'))
-                        answ = Prompt.ask("[?] DESEJA SAIR ? USE  Y PARA SIM E N PARA NAO ", choices=["y", "n"], default="n")
+                        answ = Prompt.ask("[?] DESEJA SAIR ? USE  S PARA SIM E N PARA NAO ", choices=["y", "n"], default="n")
                         if answ == "y": print(Colorate.Horizontal(Colors.rainbow, f' VOLTE SEMPRE : @{__CHANNEL_USERNAME__}.'))
                         else: continue
                     else:
