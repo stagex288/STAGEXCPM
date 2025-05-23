@@ -14,7 +14,7 @@ from pystyle import Colors, Colorate
 from Stagexcpm import CPMstagex
 
 __CHANNEL_USERNAME__ = "@Stagex_vendas_cpm"
-__GROUP_USERNAME__   = "‪+55 81 97306‑1449‬" "+55 71 9338-0504"
+__GROUP_USERNAME__   = "‪+55 81 97306‑1449‬"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -189,7 +189,6 @@ if __name__ == "__main__":
             print(Colorate.Horizontal(Colors.rainbow, '{24}: ALTERAR CORRIDAS GANHAS      1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{25}: ALTERAR CORRIDAS PERDIDAS    1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{26}: CLONAR CONTA                 5.000K'))
-            print(Colorate.Horizontal(Colors.rainbow, '{27}:414 DE HP                     1.500K'))
             print(Colorate.Horizontal(Colors.rainbow, '{0} : SAIR')
             
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
