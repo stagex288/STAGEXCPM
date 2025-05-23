@@ -11,10 +11,10 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from Stgaexcpm import CPMstagex
+from noelcpm import CPMnoelcpm
 
 __CHANNEL_USERNAME__ = "@Henriquefxp7"
-__GROUP_USERNAME__   = "81973061449" "719338-0504"
+__GROUP_USERNAME__   = "81973061449"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -190,7 +190,6 @@ if __name__ == "__main__":
             print(Colorate.Horizontal(Colors.rainbow, '{25}: ALTERAR CORRIDAS PERDIDAS    1.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{26}: CLONAR CONTA                 5.000K'))
             print(Colorate.Horizontal(Colors.rainbow, '{0} : SAIR'))
-            
             print(Colorate.Horizontal(Colors.rainbow, '===============[ 𝐂𝐏𝐌☆ ]==============='))
             
             service = IntPrompt.ask(f"[bold][?] SELECIONE UM SERVICO [red][1-{choices[-1]} or 0][/red][/bold]", choices=choices, show_choices=False)
